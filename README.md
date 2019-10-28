@@ -1,1 +1,1 @@
-# portfolio-ng
+# portfolio-angularjs
