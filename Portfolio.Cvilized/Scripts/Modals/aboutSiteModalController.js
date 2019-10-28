@@ -8,15 +8,15 @@
     aboutSiteModalController.$inject = ['$scope', '$modal', '$sce'];
 
     function aboutSiteModalController($scope, $modal, $sce) {
-        $scope.items = ['Mobile First responsive design',
+        $scope.items = ['Mobile first responsive design',
                         'Bootstrap with CVilized wrapper',
                         'AngularJs',
-                        'ASP.NET 5 Preview Templates',
-                        $sce.trustAsHtml('<a class="modal-link" href="http://cvservices.azurewebsites.net/help" target="_blank">Web API</a> with .NET 4.6'),
+                        '.NET Core 3',
+            $sce.trustAsHtml('.NET <a class="modal-link" href="http://cvservices.azurewebsites.net/help" target="_blank">Web API</a>'),
                         $sce.trustAsHtml('Queryable <a class="modal-link" href="http://cvgraphql.azurewebsites.net/" target="_blank">GraphQL</a> endpoint'),
                         'Application Insights',
                         'MongoLab Data',
-                        $sce.trustAsHtml('Continuous Integration with <a class="modal-link" href="https://github.com/michaelquinn5280/Portfolio" target="_blank">GitHub</a> and Azure')];
+                        $sce.trustAsHtml('Continuous Integration with <a class="modal-link" href="https://github.com/michaelquinn5280/portfolio-cvilized" target="_blank">GitHub</a> and Azure')];
         $scope.title = 'SUMMARY';
         $scope.link = '';
         $scope.animationsEnabled = true;
