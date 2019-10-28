@@ -6,15 +6,15 @@
 		/*-----------------------------------/
 		/* NAVIGATION
 		/*----------------------------------*/
-		
+
 		// init scroll-to effect navigation, adjust the scroll speed in milliseconds
 		$('#main-nav').localScroll(1000);
 		$('#header').localScroll(1000);
 
         $(".nav").click(function () {
-		    if ($(".main-nav-collapse").hasClass('in')) {
-		        $(".navbar-toggle").trigger("click");
-		    }
+            if ($(".main-nav-collapse").hasClass('in')) {
+                $(".navbar-toggle").trigger("click");
+            }
 		});
 
 		/*-----------------------------------/
