@@ -11,11 +11,11 @@
         $scope.items = ['Mobile first responsive design',
                         'Bootstrap with CVilized wrapper',
                         'AngularJs',
-                        '.NET Core 3',
-            $sce.trustAsHtml('.NET <a class="modal-link" href="http://cvservices.azurewebsites.net/help" target="_blank">Web API</a>'),
+                        '.NET Core',
+            $sce.trustAsHtml('RESTful <a class="modal-link" href="http://cvservices.azurewebsites.net/help" target="_blank">Web API</a>'),
                         $sce.trustAsHtml('Queryable <a class="modal-link" href="http://cvgraphql.azurewebsites.net/" target="_blank">GraphQL</a> endpoint'),
                         'Application Insights',
-                        'MongoLab Data',
+                        'MongoLab data source',
                         $sce.trustAsHtml('Continuous Integration with <a class="modal-link" href="https://github.com/michaelquinn5280/portfolio-cvilized" target="_blank">GitHub</a> and Azure')];
         $scope.title = 'SUMMARY';
         $scope.link = '';
